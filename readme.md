@@ -27,13 +27,15 @@
 const map = new Map();
 map.get();
 map.set(c, newCode);
+map.delete(c); // delete the whole entry
 ```
 
 
 ## String
 1. for a character buffer, or a dynamic string:
     ```javascript
-    let buf = []
+    let buf = [];
+    buf.length;
     ```
 2. Initialize a string:
     ```javascript
@@ -44,6 +46,10 @@ map.set(c, newCode);
     ```javascript
     const letter = String.fromCharCode('a'.charCodeAt(0) + 1);
     ```
+4. Compare:
+    ```javascript
+    str1.localeCompare(str2) === 0;
+    ```
 
 ## Math
 1. to make `/` works
@@ -52,11 +58,16 @@ map.set(c, newCode);
     ```
 
 ## Array
-1. Initialization
+1. Array:
     ```javascript
     const arr = new Array(n);
     arr.fill(2);
     arr[idx]++;
+    ```
+2. []
+    ```javascript
+    const arr = [];
+    arr.length;
     ```
 
 ## Stack
@@ -67,6 +78,7 @@ stack.pop();
 if(stack.length === 0) {
     console.log("stack is empty.");
 }
+stack[stack.length - 1];
 ```
 
 ## Syntax
