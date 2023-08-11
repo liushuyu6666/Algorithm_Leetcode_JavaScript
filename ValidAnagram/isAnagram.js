@@ -1,4 +1,4 @@
-function isAnagram(s, t) {
+export function isAnagram(s, t) {
     if(s.length !== t.length) return false;
     const n = s.length;
 
@@ -23,5 +23,3 @@ function isAnagram(s, t) {
 
     return true;
 }
-
-console.log(isAnagram("rat", "cat"));
