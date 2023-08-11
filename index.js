@@ -1,6 +1,10 @@
+import { romanToInt } from './RomanToInteger/romanToInt.js'
 
 function main() {
-    console.log("hello world");
+    const s = "MCMXCIV";
+    const num = romanToInt(s);
+
+    console.log(num)
 }
 
 main()
