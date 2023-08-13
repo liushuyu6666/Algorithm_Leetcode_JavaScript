@@ -28,6 +28,10 @@ const map = new Map();
 map.get();
 map.set(c, newCode);
 map.delete(c); // delete the whole entry
+map.delete(c); // no error if the element does not exist.
+for(const val of map.values()) {
+    // traverse values
+}
 ```
 
 
