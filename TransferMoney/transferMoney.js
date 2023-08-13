@@ -1,42 +1,41 @@
-export function transferMoney(accounts) {
-    const transfersPlus = [];
-    const transfersMinus = [];
-    const str = [];
-    const sum = accounts.reduce((acc, ele) => acc + ele, 0);
-    const avg = sum / accounts.length;
+export function transferMoney(balances) {
+    const plusAccount = [];
+    const minusAccount = [];
+    const sum = balances.reduce((acc, val) => acc + val, 0);
+    const avg = sum / balances.length;
+    const msg = [];
 
-    console.log(`average should be ${avg}`); // [120, 80, 200, 150, 150]
-
-    accounts.forEach((account, i) => {
-        if(account > avg) {
-            transfersPlus.push({idx: i, balance: account - avg});
-        } else if (account < avg) {
-            transfersMinus.push({idx: i, balance: avg - account});
+    balances.forEach((balance, i) => {
+        if(balance > avg) {
+            plusAccount.push({idx: i, balance: balance - avg});
+        } else if (balance < avg) {
+            minusAccount.push({idx: i, balance: avg - balance});
         }
     });
 
-    while(transfersPlus.length > 0 && transfersMinus.length > 0) {
-        const plus = transfersPlus[0];
-        const minus = transfersMinus[0];
+    while(plusAccount.length > 0 && minusAccount.length > 0) {
+        const plus = plusAccount[0];
+        const minus = minusAccount[0];
         const diff = plus.balance - minus.balance;
+
         if(diff > 0) {
-            str.push(`user ${plus.idx} transfers ${minus.balance} to user ${minus.idx}`);
-            plus.balance -= minus.balance;
-            transfersMinus.shift();
+            msg.push(`${plus.idx} transfer $${minus.balance} to ${minus.idx}`);
+            plus.balance = diff;
+            minusAccount.shift();
         } else if (diff < 0) {
-            str.push(`user ${plus.idx} transfers ${plus.balance} to user ${minus.idx}`);
-            minus.balance -= plus.balance;
-            transfersPlus.shift();
+            msg.push(`${plus.idx} transfer $${plus.balance} to ${minus.idx}`);
+            minus.balance = -diff;
+            plusAccount.shift();
         } else {
-            str.push(`user ${plus.idx} transfers ${plus.balance} to user ${minus.idx}`);
-            transfersMinus.shift();
-            transfersPlus.shift();
+            msg.push(`${plus.idx} transfer $${plus.balance} to ${minus.idx}`);
+            plusAccount.shift();
+            minusAccount.shift();
         }
     }
 
-    if(transfersPlus.length > 0 || transfersMinus.length > 0) {
-        throw new Error("can not even all accounts.");
+    if(plusAccount.length > 0 || minusAccount.length > 0) {
+        throw new Error("Cannot even all balances");
     }
 
-    return str;
+    return msg;
 }
