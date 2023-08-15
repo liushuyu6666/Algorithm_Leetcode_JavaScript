@@ -122,6 +122,15 @@ stack[stack.length - 1];
     - [Quantifiers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers): numbers of characters or expressions to match.
     - [flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp#parameters).
 
+2. Use `RegExp`:
+    ```javascript
+    const jewel = jewels.shift();
+    const pattern = `${jewel}`;
+
+    const regex = new RegExp(pattern, 'g');
+    const matches = stones.match(regex);
+    ```
+
 ## Syntax
 ```javascript
 for(let i = 0; i < a && r < n; i++) {
