@@ -20,6 +20,10 @@
     ```javascript
     set.has(ele);
     ```
+6. Caveat: don't initialize a set with a string in this way:
+    ```javascript
+    const set = new Set("hello"); // get set(['h', 'e', 'l', 'l', 'o'])
+    ```
 
 ## Map
 
@@ -54,11 +58,28 @@ for(const val of map.values()) {
     ```javascript
     str1.localeCompare(str2) === 0;
     ```
+5. Convert integer to character:
+    ```javascript
+    String.fromCharCode(integer);
+    ```
+6. Find all matched substring, For example, I would like to find all lowercase letters or uppercase letters in a string
+    ```javascript
+    const allLower = (str.match(/[a-z]+/g) || []).join('');
+    const allUpper = (str.match(/[A-Z]+/g) || []).join('');
+    ```
+7. For matching couple substring, we can use `|` in regex:
+    ```javascript
+    list = s.match(/(0+)|(1+)/g); // 11001100 => [11, 00, 11, 00]
+    ```
 
 ## Math
 1. to make `/` works
     ```javascript
     d = Math.floor(d / 2);
+    ```
+2. 
+    ```javascript
+    const num = parseInt('1');
     ```
 
 ## Array
@@ -72,6 +93,14 @@ for(const val of map.values()) {
     ```javascript
     const arr = [];
     arr.length;
+    ```
+3. Remove the first element:
+    ```javascript
+    arr.shift();
+    ```
+4. Remove the last element:
+    ```javascript
+    arr.pop();
     ```
 
 ## Stack
