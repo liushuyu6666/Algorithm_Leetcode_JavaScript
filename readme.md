@@ -71,6 +71,11 @@ for(const val of map.values()) {
     ```javascript
     list = s.match(/(0+)|(1+)/g); // 11001100 => [11, 00, 11, 00]
     ```
+8. Padding:
+    ```javascript
+    "ff".padStart(3, '0'); // 0ff
+    "ff".padEnd(3, '0'); // ff0
+    ```
 
 ## Math
 1. to make `/` works
@@ -80,6 +85,17 @@ for(const val of map.values()) {
 2. 
     ```javascript
     const num = parseInt('1');
+    ```
+3. Convert string to number
+    ```javascript
+    parseInt(str, hexadecimal);
+    parseInt("ff", 16); // 255
+    parseInt("25", 10); // 25;
+    ```
+4. Convert number to string:
+    ```javascript
+    255.toString(16); // ff
+    255.toString(10); // 255
     ```
 
 ## Array
