@@ -1,4 +1,4 @@
-function kthDistinct(arr, k) {
+export function kthDistinct(arr, k) {
     const map = new Map();
 
     for(const word of arr) {

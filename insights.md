@@ -24,37 +24,50 @@
 24. https://leetcode.cn/problems/ransom-note/ string -> bucket and item
 25. https://leetcode.cn/problems/reformat-the-string/ string -> characters grouping, string rearrangement
 26. https://leetcode.cn/problems/repeat-string/ string -> string rearrangement
-27. https://leetcode.cn/problems/repeated-substring-pattern/ string -> repeat substring
-28. https://leetcode.cn/problems/reverse-string/ string -> string rearrangement
-29. https://leetcode.cn/problems/reverse-string-ii/ string -> string rearrangement -> string reverse
-30. https://leetcode.cn/problems/reverse-vowels-of-a-string/ string -> string rearrangement -> string reverse
-31. https://leetcode.cn/problems/reverse-words-in-a-string-iii/ string -> string rearrangement -> string reverse
-32. https://leetcode.cn/problems/robot-return-to-origin/ string -> characters grouping
-33. https://leetcode.cn/problems/roman-to-integer/ string -> string conversion
-34. https://leetcode.cn/problems/sentence-similarity/ string -> string mapping
-35. https://leetcode.cn/problems/shortest-completing-word/ string -> bucket and item
-36. https://leetcode.cn/problems/shortest-word-distance/ string -> bucket and item, distance
-37. https://leetcode.cn/problems/shuffle-string/ string -> string rearrangement
-38. https://leetcode.cn/problems/similar-rgb-color/ string -> distance
-39. https://leetcode.cn/problems/split-a-string-in-balanced-strings/ string -> characters grouping
-40. https://leetcode.cn/problems/strobogrammatic-number/ string -> characters positions
-41. https://leetcode.cn/problems/student-attendance-record-i/ string -> characters positions
-42. https://leetcode.cn/problems/valid-anagram/ string -> string mapping
-43. https://leetcode.cn/problems/valid-palindrome-ii/ string -> symmetry
-44. https://leetcode.cn/problems/valid-parentheses/ string -> characters positions
-45. https://leetcode.cn/problems/valid-word-abbreviation/ string -> characters positions
-46. https://leetcode.cn/problems/word-pattern/ string -> string mapping
-47. https://leetcode.cn/problems/odd-string-difference/ string -> distance
-48. https://leetcode.cn/problems/merge-strings-alternately/ string -> string rearrangement
-49. https://leetcode.cn/problems/minimize-string-length/ string -> characters occurrences
-50. https://leetcode.cn/problems/string-rotation-lcci/ string -> string shift
-51. https://leetcode.cn/problems/di-string-match/ string -> string conversion
-52. https://leetcode.cn/problems/perform-string-shifts/ string -> string shift
-53. https://leetcode.cn/problems/backspace-string-compare/ string -> string equality
-54. https://leetcode.cn/problems/increasing-decreasing-string/ string -> string rearrangement
-55. https://leetcode.cn/problems/split-strings-by-separator/ string -> string rearrangement
-56. https://leetcode.cn/problems/string-to-url-lcci/ string -> string rearrangement
-57. https://leetcode.cn/problems/make-the-string-great/ string -> string rearrangement
+27. https://leetcode.cn/problems/reverse-string/ string -> string rearrangement
+28. https://leetcode.cn/problems/reverse-string-ii/ string -> string rearrangement -> string reverse
+29. https://leetcode.cn/problems/reverse-vowels-of-a-string/ string -> string rearrangement -> string reverse
+30. https://leetcode.cn/problems/reverse-words-in-a-string-iii/ string -> string rearrangement -> string reverse
+31. https://leetcode.cn/problems/robot-return-to-origin/ string -> characters grouping
+32. https://leetcode.cn/problems/roman-to-integer/ string -> string conversion
+33. https://leetcode.cn/problems/sentence-similarity/ string -> string mapping
+34. https://leetcode.cn/problems/shortest-completing-word/ string -> bucket and item
+35. https://leetcode.cn/problems/shortest-word-distance/ string -> bucket and item, distance
+36. https://leetcode.cn/problems/shuffle-string/ string -> string rearrangement
+37. https://leetcode.cn/problems/similar-rgb-color/ string -> distance
+38. https://leetcode.cn/problems/split-a-string-in-balanced-strings/ string -> characters grouping
+39. https://leetcode.cn/problems/strobogrammatic-number/ string -> characters positions
+40. https://leetcode.cn/problems/student-attendance-record-i/ string -> characters positions
+41. https://leetcode.cn/problems/valid-anagram/ string -> string mapping
+42. https://leetcode.cn/problems/valid-palindrome-ii/ string -> symmetry
+43. https://leetcode.cn/problems/valid-parentheses/ string -> characters positions
+44. https://leetcode.cn/problems/valid-word-abbreviation/ string -> characters positions
+45. https://leetcode.cn/problems/word-pattern/ string -> string mapping
+46. https://leetcode.cn/problems/odd-string-difference/ string -> distance
+47. https://leetcode.cn/problems/merge-strings-alternately/ string -> string rearrangement
+48. https://leetcode.cn/problems/minimize-string-length/ string -> characters occurrences
+49. https://leetcode.cn/problems/string-rotation-lcci/ string -> string shift
+50. https://leetcode.cn/problems/di-string-match/ string -> string conversion
+51. https://leetcode.cn/problems/perform-string-shifts/ string -> string shift
+52. https://leetcode.cn/problems/backspace-string-compare/ string -> string equality
+53. https://leetcode.cn/problems/increasing-decreasing-string/ string -> string rearrangement
+54. https://leetcode.cn/problems/split-strings-by-separator/ string -> string rearrangement
+55. https://leetcode.cn/problems/string-to-url-lcci/ string -> string rearrangement
+56. https://leetcode.cn/problems/make-the-string-great/ string -> string rearrangement
+57. https://leetcode.cn/problems/string-matching-in-an-array/ string -> string subsequence
+58. https://leetcode.cn/problems/largest-odd-number-in-string/ string -> string rearrangement
+59. https://leetcode.cn/problems/remove-vowels-from-a-string/ string -> string rearrangement
+
+60. https://leetcode.cn/problems/repeated-substring-pattern/ string -> repeat substring
+61. https://leetcode.cn/problems/greatest-common-divisor-of-strings/ string -> repeat substring
+
+62. https://leetcode.cn/problems/index-pairs-of-a-string/ string -> string containment
+63. https://leetcode.cn/problems/minimum-moves-to-convert-string/ string -> string grouping
+64. https://leetcode.cn/problems/percentage-of-letter-in-string/ string -> characters occurrences
+65. https://leetcode.cn/problems/count-pairs-of-similar-strings/ string -> characters occurrences
+66. https://leetcode.cn/problems/count-prefixes-of-a-given-string/ string -> string containment
+67. https://leetcode.cn/problems/kth-distinct-string-in-an-array/ string -> distinct string
 
 
 ## string containment need to have lower layer and contains string mapping
+## Find all repeated substring questions
