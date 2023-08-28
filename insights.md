@@ -71,6 +71,8 @@
 69. https://leetcode.cn/problems/count-vowel-substrings-of-a-string/ string -> consecutive subsequence
 70. https://leetcode.cn/problems/remove-trailing-zeros-from-a-string/ string -> string rearrangement
 71. https://leetcode.cn/problems/delete-characters-to-make-fancy-string/ string -> consecutive subsequence, string rearrangement
+72. https://leetcode.cn/problems/rearrange-characters-to-make-target-string/ string -> string rearrangement
+73. https://leetcode.cn/problems/second-largest-digit-in-a-string/ string -> characters occurrences
 
 
 
