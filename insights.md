@@ -66,7 +66,12 @@
 64. https://leetcode.cn/problems/percentage-of-letter-in-string/ string -> characters occurrences
 65. https://leetcode.cn/problems/count-pairs-of-similar-strings/ string -> characters occurrences
 66. https://leetcode.cn/problems/count-prefixes-of-a-given-string/ string -> string containment
-67. https://leetcode.cn/problems/kth-distinct-string-in-an-array/ string -> distinct string
+67. https://leetcode.cn/problems/kth-distinct-string-in-an-array/ string -> unique elements
+68. https://leetcode.cn/problems/find-maximum-number-of-string-pairs/ string -> string reverse
+69. https://leetcode.cn/problems/count-vowel-substrings-of-a-string/ string -> consecutive subsequence
+70. https://leetcode.cn/problems/remove-trailing-zeros-from-a-string/ string -> string rearrangement
+71. https://leetcode.cn/problems/delete-characters-to-make-fancy-string/ string -> consecutive subsequence, string rearrangement
+
 
 
 ## string containment need to have lower layer and contains string mapping
