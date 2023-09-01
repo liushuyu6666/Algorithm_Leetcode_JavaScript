@@ -73,6 +73,21 @@
 71. https://leetcode.cn/problems/delete-characters-to-make-fancy-string/ string -> consecutive subsequence, string rearrangement
 72. https://leetcode.cn/problems/rearrange-characters-to-make-target-string/ string -> string rearrangement
 73. https://leetcode.cn/problems/second-largest-digit-in-a-string/ string -> characters occurrences
+74. https://leetcode.cn/problems/count-the-number-of-consistent-strings/ string -> characters occurrences
+75. https://leetcode.cn/problems/calculate-digit-sum-of-a-string/ string -> segment
+76. https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/ string -> string grouping, string rearrangement, adjacent characters
+77. https://leetcode.cn/problems/number-of-lines-to-write-string/ string -> string conversion
+78. https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/ string -> string conversion
+79. https://leetcode.cn/problems/maximum-score-after-splitting-a-string/ string -> string grouping, characters occurrences
+80. https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/ string -> adjacent characters, string rearrangement
+81. https://leetcode.cn/problems/determine-if-string-halves-are-alike/ string -> count characters
+82. https://leetcode.cn/problems/find-first-palindromic-string-in-the-array/ string -> palindrome (symmetry)
+83. https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/ string -> compare two strings
+84. https://leetcode.cn/problems/largest-3-same-digit-number-in-string/ string -> adjacent characters
+85. https://leetcode.cn/problems/redistribute-characters-to-make-all-strings-equal/ string -> character occurrences
+86. https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent/ string -> character occurrences
+87. https://leetcode.cn/problems/number-of-different-integers-in-a-string/ string -> adjacent characters
+88. https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/ string -> string grouping, binary string
 
 
 

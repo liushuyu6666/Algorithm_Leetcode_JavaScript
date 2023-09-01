@@ -1,0 +1,3 @@
+# Algorithms
+## Derivation from results
+This question asks us to convert a binary string into an alternating binary string. If we attempt to flip every character to achieve the minimum number of moves, the process becomes more complex. However, upon considering the potential outcomes of an alternating binary string, we discover that there are only two possibilities for the original string `0100`: `0101` or `1010`. Therefore, for each original string, we already know that the result will be either `101010...` or `010101...` Our task is to calculate the number of changes needed between these two results and select the option with the fewest changes.
