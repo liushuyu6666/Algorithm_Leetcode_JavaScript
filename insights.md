@@ -88,6 +88,18 @@
 86. https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent/ string -> character occurrences
 87. https://leetcode.cn/problems/number-of-different-integers-in-a-string/ string -> adjacent characters
 88. https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/ string -> string grouping, binary string
+89. https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping/ string -> string conversion
+90. https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array/ string -> string conversion
+91. https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k/ string -> string partition
+92. https://leetcode.cn/problems/check-if-string-is-a-prefix-of-array/ string -> string containment
+93. https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range/ string -> ??
+94. https://leetcode.cn/problems/check-if-string-is-decomposable-into-value-equal-substrings/ string -> adjacent characters
+95. https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word/ string -> string containment
+96. https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string/ string -> binary string, adjacent characters
+97. https://leetcode.cn/problems/shortest-distance-to-target-string-in-a-circular-array/ array -> distance
+98. https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/ string -> string containment
+99. https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/ string -> adjacent characters, binary string, character grouping
+100. https://leetcode.cn/problems/count-elements-with-strictly-smaller-and-greater-elements/ array -> ??
 
 
 
