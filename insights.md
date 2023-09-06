@@ -1,3 +1,4 @@
+EASY -> STRING QUESTIONS
 1. https://leetcode.cn/problems/buddy-strings/ string -> string equality
 2. https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/ string -> string equality
 3. https://leetcode.cn/problems/compress-string-lcci/ string -> characters grouping
@@ -105,3 +106,9 @@
 
 ## string containment need to have lower layer and contains string mapping
 ## Find all repeated substring questions
+
+
+
+Medium
+1. https://leetcode.cn/problems/kill-process/ Tree
+2. https://leetcode.cn/problems/promise-pool/ Async, Pool
