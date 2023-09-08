@@ -1,4 +1,4 @@
-function gcdOfStrings(str1, str2) {
+function gcdOfStrings1(str1, str2) {
     const [repeatedSubstring1, times1] = getRepeatedSubstring(str1);
     const [repeatedSubstring2, times2] = getRepeatedSubstring(str2);
 
@@ -27,5 +27,3 @@ function getRepeatedSubstring(s) {
     const lengthOfRepeat = Math.floor(s.length / (times + 1));
     return [s.substring(0, lengthOfRepeat), times + 1];
 }
-
-console.log(gcdOfStrings("ABCABC", "ABC"))
