@@ -7,10 +7,11 @@ export function areSentencesSimilar(sentence1, sentence2, similarPairs) {
     }
 
     for(let i = 0; i < sentence1.length; i++) {
-        const pair1 = `${sentence1}#${sentence2}`;
-        const pair2 = `${sentence2}#${sentence1}`;
-        if(!sentence1[i] === sentence2[i] && 
-            !pairSet.has(pair1) && !pairSet.has(pair2)) return false;
+        const pair1 = `${sentence1[i]}#${sentence2[i]}`;
+        const pair2 = `${sentence2[i]}#${sentence1[i]}`;
+        if(!(sentence1[i] === sentence2[i]) && 
+            !pairSet.has(pair1) && 
+            !pairSet.has(pair2)) return false;
     }
 
     return true;
