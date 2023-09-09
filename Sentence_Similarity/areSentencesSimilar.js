@@ -1,24 +1,16 @@
 export function areSentencesSimilar(sentence1, sentence2, similarPairs) {
     if(sentence1.length !== sentence2.length) return false;
 
-    const map = new Map();
-    for(let i = 0; i < similarPairs.length; i++) {
-        if(map.has(similarPairs[i][0])) {
-            map.get(similarPairs[i][0]).add(similarPairs[i][1]);
-        } else {
-            const set = new Set();
-            map.set(similarPairs[i][0], set.add(similarPairs[i][1]));
-        }
+    const pairSet = new Set();
+    for(const [word1, word2] of similarPairs) {
+        pairSet.add(`${word1}#${word2}`);
     }
 
-    const n = sentence1.length;
-    for(let i = 0; i < n; i++) {
-        const word1 = sentence1[i], word2 = sentence2[i];
-        const set1 = map.get(word1) || new Set(), set2 = map.get(word2) || new Set();
-        if(word1 === word2) continue;
-        if(set1.has(word2)) continue;
-        if(set2.has(word1)) continue;
-        return false;
+    for(let i = 0; i < sentence1.length; i++) {
+        const pair1 = `${sentence1}#${sentence2}`;
+        const pair2 = `${sentence2}#${sentence1}`;
+        if(!sentence1[i] === sentence2[i] && 
+            !pairSet.has(pair1) && !pairSet.has(pair2)) return false;
     }
 
     return true;
