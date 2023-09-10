@@ -1,6 +1,6 @@
 # Algorithms
 ## Adjacency List
-In contrast to the [adjacency list in this question](https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/tree/master/Kill_Process#adjacency-list), our adjacency list requires both ends of a relation to serve as keys. Additionally, a visited array is necessary to track `visited` nodes.
+In contrast to the [adjacency list in this question](https://github.com/liushuyu6666/Algorithm_Leetcode_JavaScript/tree/master/Kill_Process#adjacency-list), our adjacency list requires both ends of a relation to serve as keys. Additionally, a `visited` array is necessary to track visited nodes.
 
 Given the connectivity relationship `[[2,0],[2,1]]`:
 * Using the referenced adjacency list, we obtain:
