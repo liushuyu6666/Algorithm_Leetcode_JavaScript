@@ -41,4 +41,4 @@ function validateAndRemoteStartIdx(adjacencyList, visited, startIdx) {
     return true;
 }
 ```
-Given the scenario `{0 => [1], 1 => [0]}`, an infinite DFS loop might occur since `visited[i] = true` is set only at the end."
+Given the scenario `{0 => [1], 1 => [0]}`, an infinite DFS loop might occur since `visited[i] = true` is set only at the end.
