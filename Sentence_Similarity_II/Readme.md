@@ -6,6 +6,9 @@ At its core, the Union-Find algorithm focuses on two main operations:
 
 1. Find: This function identifies the ancestor of a given node. Utilizing a depth-first search, it traces the ancestor and subsequently updates every node along the path to directly reference this ancestor.
 2. Merge: This function integrates one set (represented by its ancestor) into another.
+   
+The array `rank` is designed to represent the depth of the tree rooted at a given point. However, its accuracy can be compromised when the `find` function is used, leading to the collapse of a tree branch. A more accurate interpretation would be that the `rank` denotes the size of the node within the tree. Generally, trees with more nodes tend to be deeper.
+
 
 ![union find illustration](union_find.png)
 
