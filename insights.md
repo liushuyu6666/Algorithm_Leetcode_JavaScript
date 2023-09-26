@@ -1,4 +1,4 @@
-# Type
+# Easy String Questions
 Just ignore "simple manipulation" and "characters frequency (simple)" because they are too simple.
 
 Need to summarize "Others" later.
@@ -58,20 +58,18 @@ Need to summarize "Others" later.
 
 
 
-EASY -> STRING QUESTIONS
+
+# Medium Questions
+
+## Connectivity
+1. https://leetcode.cn/problems/kill-process/ connectivity issue (done)
+2. https://leetcode.cn/problems/number-of-provinces/ connectivity issue (done)
+3. https://leetcode.cn/problems/number-of-connected-components-in-an-undirected-graph/ connectivity issue (done)
+
+## Sliding windows
+1. https://leetcode.cn/problems/minimum-size-subarray-sum/ sliding windows
 
 
-
-
-
-## string containment need to have lower layer and contains string mapping
-## Find all repeated substring questions
-
-
-
-Medium
-1. https://leetcode.cn/problems/kill-process/ connectivity issue
-2. https://leetcode.cn/problems/promise-pool/ Async, Pool
-3. https://leetcode.cn/problems/maximum-product-subarray/ consistent subarray calculation
-4. https://leetcode.cn/problems/number-of-provinces/description/ connectivity issue
-5. https://leetcode.cn/problems/number-of-provinces/submissions/ connectivity issue
+## Others
+1. https://leetcode.cn/problems/promise-pool/ Async, Pool
+2. https://leetcode.cn/problems/maximum-product-subarray/ consistent subarray calculation
